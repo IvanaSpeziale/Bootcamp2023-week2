@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "sass": "sass scss:css -w --no-source-map",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
@@ -15,6 +16,11 @@
     "singleQuote": true
   },
   "devDependencies": {
-    "husky": "^8.0.0"
+    "eslint": "^8.51.0",
+    "husky": "^8.0.0",
+    "sass": "^1.69.3"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^9.0.0"
   }
 }
